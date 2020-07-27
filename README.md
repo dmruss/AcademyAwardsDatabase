@@ -1,18 +1,6 @@
-*******************************************************
-*  Name      :  David Russell        
-*  Student ID:  101147569     
-*  Class     :  CSC 2421           
-*  Final Project                
-*  Due Date  :  December 12, 2019
-*******************************************************
+# Academy Awards Database
 
-
-                 Read Me
-
-
-*******************************************************
-*  Description of the program
-*******************************************************
+___________________________________________________________________________________________________________
 
 This program is a database management system for the Academy Awards.
 Two files, one for movies and one for actors, are read from a file into
@@ -20,9 +8,9 @@ separate vectors.  Then, the user may search, modify, sort, display, and save
 the records. Currently, all functions work in this program and compile
 successfully on csegrid.
 
-*******************************************************
-*  Source files
-*******************************************************
+## Source Files
+
+___________________________________________________________________________________________________________
 
 Name:  main.cpp
    Main program.  This runs menu event loop.
@@ -40,20 +28,10 @@ Name: ActorFunctions.cpp
    
 
 
-   
-*******************************************************
-*  Circumstances of programs
-*******************************************************
-
-   The program runs successfully.  
-   
-   The program was developed and tested on Visual Studio version 16.2.3.  It was 
-   compiled, run, and tested on gcc version 6.3.1 on csegrid.cudenver.pvt.
+##  How to build and run the program
 
 
-*******************************************************
-*  How to build and run the program
-*******************************************************
+___________________________________________________________________________________________________________
 
 1. Uncompress the homework.  The homework file is compressed.  
    To uncompress it use the following commands 
@@ -67,7 +45,7 @@ Name: ActorFunctions.cpp
 	actor-actress.csv
 	pictures.csv
         makefile
-        README.txt
+        README.md
 	FinalReport.pdf
 
 2. Build the program.
@@ -80,3 +58,14 @@ Name: ActorFunctions.cpp
 
 4. Delete the obj files, executables, and core dump by
    %./make clean
+
+
+
+### Circumstances of programs
+
+___________________________________________________________________________________________________________
+
+   The program runs successfully.  
+   
+   The program was developed and tested on Visual Studio version 16.2.3.  It was 
+   compiled, run, and tested on gcc version 6.3.1 on csegrid.cudenver.pvt.
