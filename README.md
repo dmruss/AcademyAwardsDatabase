@@ -13,18 +13,18 @@ successfully on csegrid.
 ___________________________________________________________________________________________________________
 
 Name:  main.cpp
-   Main program.  This runs menu event loop.
+   >Main program.  This runs menu event loop.
 
 Name:  function.h
-   Contains the class declarations for the Actor class
+   >Contains the class declarations for the Actor class
 and movie class.  Also contains the function declarations for 
 non-member functions and the menu function.
 
 Name: function.cpp
-   Implements the movie class.  Also implements the menu function.
+   >Implements the movie class.  Also implements the menu function.
 
 Name: ActorFunctions.cpp
-   Implements the actor class.
+   >Implements the actor class.
    
 
 
@@ -39,16 +39,17 @@ To install MinGW: https://osdn.net/projects/mingw/releases/
 1. Download the AcademyAwardsDatabase-master.zip file
 
 2. Unzip and inside you should see the files:
-
-        main.cpp
-        functions.h
-	ActorFunctions.cpp
-	functions.cpp
-	actor-actress.csv
-	pictures.csv
-        makefile
-        README.md
-	FinalReport.pdf
+ ```
+main.cpp
+functions.h
+ActorFunctions.cpp
+functions.cpp
+actor-actress.csv
+pictures.csv
+makefile
+README.md
+FinalReport.pdf
+```
 
 3. Open the command prompt and navigate to the root download folder
 
