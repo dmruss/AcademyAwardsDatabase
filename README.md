@@ -29,15 +29,17 @@ Name: ActorFunctions.cpp
 
 
 ##  How to build and run the program
+### Using Windows Command Prompt
 
 
 ___________________________________________________________________________________________________________
+First, make sure that GNU g++ compiler and make are installed to your system and added to the environment path.
+To install MinGW: https://osdn.net/projects/mingw/releases/
 
-1. Uncompress the homework.  The homework file is compressed.  
-   To uncompress it use the following commands 
-       % unzip [russelldavidFinalProject.zip]
+1. Download the AcademyAwardsDatabase-master.zip file
 
-   Now you should see the files:
+2. Unzip and inside you should see the files:
+
         main.cpp
         functions.h
 	ActorFunctions.cpp
@@ -48,16 +50,16 @@ ________________________________________________________________________________
         README.md
 	FinalReport.pdf
 
-2. Build the program.
+3. Open the command prompt and navigate to the root download folder
 
-    Compile the program by:
-    % make
+4. Make the file with 
+   'mingw32-make'
 
-3. Run the program by:
-   % ./[awards]
+5. Run the program with
+   'awards'
 
-4. Delete the obj files, executables, and core dump by
-   %./make clean
+6. Delete the obj files, executables, and core dump by
+   'mingw32-make clean'
 
 
 
