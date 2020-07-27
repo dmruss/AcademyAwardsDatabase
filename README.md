@@ -1,6 +1,6 @@
 # Academy Awards Database
 
-___________________________________________________________________________________________________________
+
 
 This program is a database management system for the Academy Awards.
 Two files, one for movies and one for actors, are read from a file into
@@ -10,7 +10,7 @@ successfully on csegrid.
 
 ## Source Files
 
-___________________________________________________________________________________________________________
+
 
 Name:  main.cpp
    >Main program.  This runs menu event loop.
@@ -31,10 +31,10 @@ Name: ActorFunctions.cpp
 ##  How to build and run the program
 ### Using Windows Command Prompt
 
-
-___________________________________________________________________________________________________________
 First, make sure that GNU g++ compiler and make are installed to your system and added to the environment path.
+
 To install MinGW: https://osdn.net/projects/mingw/releases/
+
 
 1. Download the AcademyAwardsDatabase-master.zip file
 
@@ -66,7 +66,7 @@ FinalReport.pdf
 
 ### Circumstances of programs
 
-___________________________________________________________________________________________________________
+
 
    The program runs successfully.  
    
